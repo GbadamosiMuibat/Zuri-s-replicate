@@ -1,0 +1,141 @@
+:root {
+    --blue:
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fffafa;
+}
+.hero-container{
+    height: 800px;
+    background-image: url("https://zuri.team/img/hero-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    
+}
+.logo{
+    margin: auto;
+    display: flex;
+    margin-top: 69px;
+    padding-bottom: 69px;
+}
+.logo-img{
+    margin: auto;
+}
+.hero{
+    max-width: 700px                                                        ;
+   margin: 0 auto;
+   text-align: center;
+   padding: 10px;
+}
+.hero h2{
+    font-size: 32px;
+    font-weight: 800px;
+    text-align: center;
+    line-height: 48px;
+    margin-bottom: 36px;
+    color:  #514949;
+}
+.hero p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+a{
+    text-decoration: none;
+    color:  #E7332B;
+}
+
+.btn-div{
+    margin-top: 92px;
+}
+.btn{
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+    font-size: 16px;
+    line-height: 13.3px;
+}
+.industry{
+    background-color:  #E7332B;
+    color: #fff;
+}
+.industry:hover{
+    background-color:#fff ;
+    color: #E7332B;
+}
+.experience{
+    color: #E7332B;
+    background-color: #fff;
+}
+.experience:hover{
+    background-color: #E7332B;
+    color: #fff;
+}
+.program{
+    background-color: #fff;
+    overflow: hidden;
+}
+.program-container{
+    margin: 0 auto;
+    max-width: 1440px;
+    text-align: center;
+}
+.program-content{
+    padding-top: 0;
+}
+.program-text{
+    text-align: center;
+}
+.program-content  .heading{
+    font-size: 14px;
+    line-height: 24px;
+    color: #E7332B;
+    margin-top: 141px;
+}
+.program-content p .slagan{
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+.container{
+    max-width: 1240px;
+}
+.program-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.program-card-zed{
+    position: relative;
+    z-index: 1;
+}
+.program-card{
+    height: 511px;
+    width: 100%;
+    
+     background-color: #FFFAFA;
+    padding: 61px 47px 82px 36px;
+   
+}
+.program-card img{
+    margin-bottom: 48px
+}
+img .left{
+    width: 100%;
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+}
