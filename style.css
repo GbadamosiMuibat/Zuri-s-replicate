@@ -7,8 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    width: 100%;
-    height: 100%;
+  
     font-family: 'Roboto', sans-serif;
     background-color: #fffafa;
 }
@@ -79,63 +78,221 @@ a{
     background-color: #E7332B;
     color: #fff;
 }
-.program{
-    background-color: #fff;
-    overflow: hidden;
-}
-.program-container{
-    margin: 0 auto;
-    max-width: 1440px;
+.zuri-team {
     text-align: center;
-}
-.program-content{
-    padding-top: 0;
-}
-.program-text{
-    text-align: center;
-}
-.program-content  .heading{
+    margin-top: 9em;
+  }
+  
+  h6 {
+    color: #e7332b;
     font-size: 14px;
     line-height: 24px;
-    color: #E7332B;
-    margin-top: 141px;
-}
-.program-content p .slagan{
-    font-size: 24px;
+  }
+  
+  .p {
+    font-size: 1.5em;
+    justify-content: center;
+    width: 25%;
+    margin: auto;
+    opacity: 0.8;
     line-height: 40px;
+    padding-top: 1em;
+  }
+  
+  
+  
+  .zuri-box {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-around;
+    margin: 4em auto;
+   
+  }
+  
+  .Zuri-logo {
+    margin: 2rem 1rem 4rem;
+    height: 6.25em;
+  }
+  
+  .zuri-box-two {
+    margin-bottom: 5em;
+    padding: 2em;
+    width: 75%;
+    background-color: #fffafa;
+    margin-left: 1.8em;
+    line-height: 25px;
+    color: #514949;
+    opacity: 0.9;
+   
+  }
+  
+  .zuri-links {
+    margin-top: 1.8em;
+    margin-bottom: 4.5rem;
+  }
+  
+  .footer-container {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 4.3rem;
+  }
+  
+  .footer-links {
+    color: #514949;
+  }
+  
+  h4 {
+    padding-bottom: 0.7rem;
+  }
+  li {
+    list-style-type: none;
+    color: #514949;
+    opacity: 0.9;
+    padding-bottom: 0.9rem;
+    font-size: 0.9em;
+  }
+  
+  .address {
+    width: 87%;
+    margin: 0 auto;
+  }
+  
+  .SM-icons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .icons {
+    width: 1.8em;
+    height: 1.8em;
+    padding: 6px;
+  }
+  
+  hr {
+    width: 70%;
+    margin: 0 auto;
+    color: #514949;
+    opacity: 0.5;
+  }
+  
+  .copyright {
     text-align: center;
     color: #514949;
-    margin-top: 8px;
-    margin-bottom: 64px;
-}
-.container{
-    max-width: 1240px;
-}
-.program-row{
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-.program-card-zed{
-    position: relative;
-    z-index: 1;
-}
-.program-card{
-    height: 511px;
-    width: 100%;
+    font-weight: 700;
+    margin-top: 2.7em;
+    margin-bottom: 8em;
+    line-height: 24px;
+  }
+  
+  
+  
+  
+  /* RESPONSIVE STYLINGS */
+  
+  
+  @media (max-width: 768px) {
+  
+  
+    header {
+    min-height: 300px;
+    background-size: contain;
+    }
+  
+  
+    .header-content {
+      color: #514949;
+      opacity: 1.0;
+     
+    }
+  
+    h1{
+      font-size: 1.5em;
+      margin: 3em 0em 1.2em 0em; 
+      
+    }
+  
+    .header-text {
+      opacity: 1;
+      margin-top: 3.1rem;
+      margin-bottom: 3.7rem; 
+    }
     
-     background-color: #FFFAFA;
-    padding: 61px 47px 82px 36px;
-   
-}
-.program-card img{
-    margin-bottom: 48px
-}
-img .left{
-    width: 100%;
-    position: absolute;
-    left: -120px;
-    top: -75px;
-    z-index: -1;
-}
+  
+     .talent-training-box {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      justify-content: space-between;
+      padding: 40px;
+      
+    } 
+  
+  
+    .training {
+      margin: 30px auto;
+    }
+    
+  
+    .talent {
+      margin: auto;
+    }
+  
+    .p {
+      font-size: 1.5em;
+      width: 90%;
+      line-height: 36px;
+      margin-bottom: 3em;
+    }
+  
+  
+    .zuri-box {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+     
+    }
+  
+  
+    .zuri-box-two {
+      margin-bottom: 2em;
+      width: 90%;
+      background-color: #fffafa;
+     
+    }
+  
+  
+    .footer-container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 10rem;
+    }
+    
+  .footer-logo {
+    margin-bottom: 2.5em;
+    width: 50%;
+  }
+  
+  .footer-links {
+    margin-bottom: 2em;
+  }
+  
+  
+    h4 {
+      padding-bottom: 0.5em;
+      font-size: 1.2em;
+    }
+  
+    .SM-icons {
+      display: flex;
+      justify-content: center;
+    }
+  
+  
+  
+  }
+  
+  
